@@ -1,0 +1,340 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+.menu{
+  background-color: white;
+  border-bottom: 2px solid black;
+  height: 100px;
+  width: 100%;
+  position: fixed; top: 0px;
+  z-index: 1;
+}
+.logo { 
+  color: #fff; 
+  background-color: black;
+  height: 100px;
+  width : 264px;
+  text-align: left;
+  font-size: 80px;
+  font-family: Helvetica, Arial, sans-serif; 
+  font-weight: bold; 
+  font-style : italic;
+  margin: auto;
+  margin-top: 105px;
+  position: relative; top: -120px; right: 1px;
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  position: fixed;
+}
+
+.img1{
+  text-align: center;
+  margin-top: 213px;
+}
+.user{
+  width: 30px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 40px;
+}
+
+.user:hover{
+  -webkit-filter: invert(50%);
+}
+
+.cart{
+  width: 30px;
+  float: right;
+  margin-top: 15px;
+  margin-right: 50px;
+}
+
+.cart:hover{
+  -webkit-filter: invert(50%);
+}
+
+
+.tabs_item_right{
+  margin-top: 115px;
+  float: right;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  width: 176.5px;
+  text-align: center;
+  height: 50px;
+  line-height: 60px;
+  position: relative; bottom: 125px; right: 5px;
+}
+
+.tabs_item_right a {
+  color: black;
+  text-decoration: none;
+}
+
+.tabs_item_right a:hover {
+  border-top: 5px solid black;
+}
+.facebook{
+  width: 30px;
+  float: left;
+  margin-top: 15px;
+  margin-left: 30px;
+  margin-right: 15px;
+}
+
+.instagram{
+  width: 32px;
+  float: left;
+  margin-top: 14px;
+  margin-right: 11px;
+}
+
+.twitter{
+  width: 30px;
+  float: left;
+  margin-top: 15px;
+  margin-right: 15px;
+  position: relative; top: 4px;
+}
+
+.snapchat{
+  width: 32px;
+  float: left;
+  margin-top: 14px;
+  margin-right: 15px;
+  padding-bottom: 19px;
+}
+
+.youtube{
+  width: 35px;
+  float: left;
+  margin-top: 15px;
+  position: relative; bottom: 3px;
+}
+
+.facebook:hover{
+  opacity: 0.7;
+}
+.twitter:hover{
+  opacity: 0.7;
+}
+
+.instagram:hover{
+  opacity: 0.7;
+}
+
+.snapchat:hover{
+  opacity: 0.7;
+}
+
+.youtube:hover{
+  opacity: 0.7;
+}
+
+.clear{
+  clear: both;
+}
+
+#hi ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#hi li {
+  float: left;
+}
+
+#hi li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Nunito", sans-serif;
+  font-size: 30px;
+  padding-bottom: 7px;
+  width: 100px;
+  display: block;
+  text-align: center;
+  height: 30px;
+  width: 176px;
+}
+
+#hi li a:hover{
+  color: white;
+  background-color: black;
+}
+
+#hi ul ul {
+  visibility: hidden;
+  position: absolute;
+}
+
+#hi ul li:hover ul{
+  visibility: visible;
+}
+
+#hi ul ul li{
+  float: none;
+}
+
+.photo{
+  width: 340px;
+  padding: 20px;
+  float: left;
+}
+
+.allimage{
+  text-align: center;
+  width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image1:hover{
+  position: relative;
+  opacity: 0.5;
+}
+.image1:hover .text1{
+  visibility: visible;
+}
+.image2:hover{
+  position: relative;
+  opacity: 0.5;
+}
+.image2:hover .text2{
+  visibility: visible;
+}
+.image3:hover{
+  position: relative;
+  opacity: 0.5;
+}
+.image3:hover .text3{
+  visibility: visible;
+}
+.image4:hover{
+  position: relative;
+  opacity: 0.5;
+}
+.image4:hover .text4{
+  visibility: visible;
+}
+.image5:hover{
+  position: relative;
+  opacity: 0.5;
+}
+.image5:hover .text5{
+  visibility: visible;
+}
+.image6:hover{
+  position: relative;
+  opacity: 0.5;
+}
+.image6:hover .text6{
+  visibility: visible;
+}
+.image7:hover{
+  position: relative;
+  opacity: 0.5;
+}
+.image7:hover .text7{
+  visibility: visible;
+}
+.image8:hover{
+  position: relative;
+  opacity: 0.5;
+}
+.image8:hover .text8{
+  visibility: visible;
+}
+.image9:hover{
+  position: relative;
+  opacity: 0.5;
+}
+.image9:hover .text9{
+  visibility: visible;
+}
+.text1{
+  visibility: hidden;
+  position: absolute;
+  color: black;
+  top: 60px;
+  left: 8%;
+  font-size: 25px;
+  font-family: helvetica;
+}
+.text2{
+  visibility: hidden;
+  position: absolute;
+  color: black;
+  top: 60px;
+  right: 41%;
+  font-size: 25px;
+  font-family: helvetica;
+}
+.text3{
+  visibility: hidden;
+  position: absolute;
+  color: black;
+  top: 60px;
+  right: 6%;
+  font-size: 25px;
+  font-family: helvetica;
+}
+.text4{
+  visibility: hidden;
+  position: absolute;
+  color: black;
+  top: 60px;
+  left: 3%;
+  font-size: 25px;
+  font-family: helvetica;
+}
+.text5{
+  visibility: hidden;
+  position: absolute;
+  color: black;
+  top: 60px;
+  right: 37%;
+  font-size: 25px;
+  font-family: helvetica;
+}
+.text6{
+  visibility: hidden;
+  position: absolute;
+  color: black;
+  top: 60px;
+  right: 3.5%;
+  font-size: 25px;
+  font-family: helvetica;
+}
+.text7{
+  visibility: hidden;
+  position: absolute;
+  color: black;
+  top: 60px;
+  left: 4%;
+  font-size: 25px;
+  font-family: helvetica;
+}
+.text8{
+  visibility: hidden;
+  position: absolute;
+  color: black;
+  top: 60px;
+  right: 36%;
+  font-size: 25px;
+  font-family: helvetica;
+}
+.text9{
+  visibility: hidden;
+  position: absolute;
+  color: black;
+  top: 60px;
+  right: 3%;
+  font-size: 25px;
+  font-family: helvetica;
+}
